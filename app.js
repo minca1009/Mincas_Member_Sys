@@ -20,6 +20,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// 設定路由。('/': 跟目錄)
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
