@@ -1,3 +1,4 @@
+// 使用 require()將一些有用的 node 庫導入到文件中
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');

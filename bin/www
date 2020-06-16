@@ -4,7 +4,8 @@
  * Module dependencies.
  */
 
-var app = require('../app');
+// 入口點， require(): 將模塊導入當前文件。 
+ var app = require('../app');
 var debug = require('debug')('mincas-member-sys:server');
 var http = require('http');
 
@@ -12,6 +13,7 @@ var http = require('http');
  * Get port from environment and store in Express.
  */
 
+// 預設 port 為 3000
 var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
