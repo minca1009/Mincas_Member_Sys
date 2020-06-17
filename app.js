@@ -40,4 +40,5 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+// 有一點匯出程式碼的感覺
 module.exports = app;
