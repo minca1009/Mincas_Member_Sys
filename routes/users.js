@@ -8,8 +8,8 @@ router.get('/', function(req, res, next) {
 });
 
 // render: 把我們寫的東西渲染在前端
-router.get('/home', function(req, res, next) {
-  res.render('home');
+router.get('/navbar', function(req, res, next) {
+  res.render('navbar');
 });
 
 module.exports = router;
